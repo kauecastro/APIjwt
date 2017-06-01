@@ -6,9 +6,9 @@ module.exports = (app) => {
     var model = mongoose.model('Product');
     model
     .find({})
-    .then((Product) => {
-      console.log(Product);
-      res.json(Product);
+    .then((products) => {
+      console.log(products);
+      res.json(products);
     }, (error) => {
       console.log(error);
       res.status(500).json(error);
