@@ -6,7 +6,7 @@ console.log(uri);
     console.log('Connected on the database !');
   });
   mongoose.connection.on('error', (error) => {
-    console.log('Erro na conexão: ' + erroe);
+    console.log('Erro na conexão: ' + error);
   });
   mongoose.connection.on('disconnected', () => {
     console.log('Desconectando do MongoDB');
