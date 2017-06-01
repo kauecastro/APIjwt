@@ -1,0 +1,22 @@
+{
+  "name": "examapi",
+  "version": "1.0.0",
+  "description": "Uma API para autenticação no padrão jwt",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jwt"
+  ],
+  "author": "kauecastro",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "consign": "^0.1.4",
+    "express": "^4.15.3",
+    "jsonwebtoken": "^5.4.1",
+    "kerberos": "0.0.23",
+    "mongoose": "^4.3.1"
+  }
+}
