@@ -4,6 +4,7 @@ module.exports = (app) => {
 
   api.getProducts = (req, res) => {
     var model = mongoose.model('Product');
+    console.log(model);
     model
     .find({})
     .then((products) => {
