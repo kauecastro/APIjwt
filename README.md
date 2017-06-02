@@ -32,6 +32,21 @@ mongoose NPM: https://www.npmjs.com/package/mongoose USO: Será usado para conec
  
 ## Endpoints
 
-/authentication - POST (Mandar no corpo da requisição os parametros login e senha. EX: login: teste e senha:teste)
+/authentication - POST (Mandar no corpo da requisição os parametros login e senha.) 
+EX usando o fiddler:
 
+Headers
+```
+User-Agent: Fiddler
+Host: localhost:3000
+Content-Length: 49
+Content-Type: application/json
+```
+Request BODY
+```
+{
+    "login": "teste",
+    "senha": "teste"
+}
+```
 /getproducts - GET
