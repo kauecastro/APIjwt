@@ -32,6 +32,6 @@ mongoose NPM: https://www.npmjs.com/package/mongoose USO: Será usado para conec
  
 ## Endpoints
 
-/authentication - POST
+/authentication - POST (Mandar no corpo da requisição os parametros login e senha. EX: login: teste e senha:teste)
 
 /getproducts - GET
