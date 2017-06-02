@@ -2,7 +2,7 @@
 
 ## Sobre a API  
 
-A API oferece um sistema de autenticação baseado no padrão JWT, cujo faz a validação dos dados do usuário e retorna um token, que deverá ser expirado em 1 minuto.
+A API para autenticação foi desenvolvida baseando-se no padrão JWT, cujo faz a validação dos dados do usuário e retorna um token, que deverá ser expirado em 1 minuto. O projeto foi implementado ultilizando as tecnologias Node.js e MongoDB para banco de dados.
 
 ## Pre-Requisitos
 
@@ -14,7 +14,7 @@ Node.Js: Caso não tenha, basta realizar o download: https://www.mongodb.com/dow
 
 *Clone o repositório: `git clone https://github.com/kauecastro/APIjwt.git`
 
-*Acesse o diretório do projeto: `cd APIjwq`
+*Acesse o diretório do projeto: `cd APIjwt`
 
 *Instale as dependências: `npm install`
 
@@ -29,5 +29,9 @@ express NPM: https://www.npmjs.com/package/express USO: Para o servidor saber an
 body-parser NPM: https://www.npmjs.com/package/body-parser USO: Será usado para poder receber o JSON entregue na chamada a API
 
 mongoose NPM: https://www.npmjs.com/package/mongoose USO: Será usado para conectar a base de dados MongoDB
+ 
+## Endpoints
 
+/authentication - POST
 
+/getproducts - GET
