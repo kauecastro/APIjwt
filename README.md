@@ -2,7 +2,7 @@
 
 ## Sobre a API  
 
-A API oferece um sistema de autenticação baseado no padrão JWT, cujo faz a validação dos dados do usuário e retorna um token, que deverá ser expirado em 1 minuto.
+A API para autenticação foi desenvolvida baseando-se no padrão JWT, cujo faz a validação dos dados do usuário e retorna um token, que deverá ser expirado em 1 minuto.
 
 ## Pre-Requisitos
 
