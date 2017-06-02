@@ -14,7 +14,7 @@ Node.Js: Caso não tenha, basta realizar o download: https://www.mongodb.com/dow
 
 *Clone o repositório: `git clone https://github.com/kauecastro/APIjwt.git`
 
-*Acesse o diretório do projeto: `cd APIjwq`
+*Acesse o diretório do projeto: `cd APIjwt`
 
 *Instale as dependências: `npm install`
 
