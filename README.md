@@ -29,5 +29,9 @@ express NPM: https://www.npmjs.com/package/express USO: Para o servidor saber an
 body-parser NPM: https://www.npmjs.com/package/body-parser USO: Será usado para poder receber o JSON entregue na chamada a API
 
 mongoose NPM: https://www.npmjs.com/package/mongoose USO: Será usado para conectar a base de dados MongoDB
+ 
+## Endpoints
 
+/authentication - POST
 
+/getproducts - GET
