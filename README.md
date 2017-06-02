@@ -12,7 +12,7 @@ Node.Js: Caso não tenha, basta realizar o download: https://www.mongodb.com/dow
 
 ## Instalação das dependências
 
-*Clone o repositório: `git clone git@github.com:caio-ribeiro-pereira/ntask-api.git`
+*Clone o repositório: `git clone https://github.com/kauecastro/APIjwt.git`
 
 *Acesse o diretório do projeto: `cd APIjwq`
 
