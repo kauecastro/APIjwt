@@ -18,7 +18,7 @@ Node.Js: Caso não tenha, basta realizar o download: https://www.mongodb.com/dow
 
 *Instale as dependências: `npm install`
 
-*Para iniciar o servidor basta estar no diretório "APIjwq" e escrever o comando abaixo no terminal: `node index.js`
+*Para iniciar o servidor basta estar no diretório "APIjwt" e escrever o comando abaixo no terminal: `node index.js`
 
 ## Dependências do projeto
 
